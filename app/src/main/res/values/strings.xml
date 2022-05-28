@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Agropeu App</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <array name="filtros">
+        <item>@string/nomeConvidado</item>
+        <item>@string/numConvite</item>
+        <item>@string/convidadosPresentes</item>
+        <item>@string/convidadosInativos</item>
+        <item>@string/numDocumento</item>
+    </array>
+
+
+    <array name="filtrosEvento">
+        <item>@string/nomeEvento</item>
+    </array>
+
+
+    <string name="convidadosInativos">Convites Inativos</string>
+    <string name="convidadosPresentes">Convidados Presentes</string>
+    <string name="numConvite">Número do convite</string>
+    <string name="nomeConvidado">Nome do convidado</string>
+    <string name="numDocumento">Documento</string>
+    <string name="nomeEvento">Nome do Evento</string>
+
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_action_filter"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txt_titulo_alerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/exo_regular"
+            android:padding="10dp"
+            android:text="Filtros"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_mensagem_alerta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_regular"
+        android:padding="10dp"
+        android:text="Selecione os filtros que deseja"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <CheckBox
+        android:id="@+id/cb_mostrarEventosAntigos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar Eventos Antigos (datas anteriores a hoje)" />
+
+    <CheckBox
+        android:id="@+id/cb_somenteMeusEventos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mostrar somente eventos criados por mim" />
+
+
+</LinearLayout>

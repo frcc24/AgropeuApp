@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@android:drawable/ic_dialog_alert"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/txt_titulo_alerta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:fontFamily="@font/exo_regular"
+            android:padding="10dp"
+            android:text="ALERTA!"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_mensagem_alerta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/exo_regular"
+        android:padding="10dp"
+        android:text="Selecione a Imagem desejada:"
+        android:textAlignment="center"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/rg_listaImagens"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <RadioButton
+            android:id="@+id/rb_img1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/cerveja"
+            android:fontFamily="@font/exo_regular"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rb_img2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/festajunina"
+            android:fontFamily="@font/exo_regular"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rb_img3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/final_ano"
+            android:fontFamily="@font/exo_regular"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/rb_img4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/reuniao2"
+            android:fontFamily="@font/exo_regular"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+
+        <RadioButton
+            android:id="@+id/rb_img5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableRight="@drawable/reuniao"
+            android:fontFamily="@font/exo_regular"
+            android:textColor="@color/colorPrimaryText"
+            android:textSize="16sp" />
+
+
+    </RadioGroup>
+</LinearLayout>

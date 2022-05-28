@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "198522415297",
+    "firebase_url": "https://agropeu-app.firebaseio.com",
+    "project_id": "agropeu-app",
+    "storage_bucket": "agropeu-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198522415297:android:db39674cdce6aa3a",
+        "android_client_info": {
+          "package_name": "com.francocorrea.agropeuapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198522415297-6h6hp81tdekem0med5vbsnfq9a2jetgs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.francocorrea.agropeuapp",
+            "certificate_hash": "00f3bfb7b7984a98f4acdc9ef761248dda8e81c3"
+          }
+        },
+        {
+          "client_id": "198522415297-d00qa2k43ik0p41d06fobs9gf1s18lhe.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "198522415297-d00qa2k43ik0p41d06fobs9gf1s18lhe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAFqgglUsVz69wso0fonEGxUYk4ZRs3cg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198522415297-d00qa2k43ik0p41d06fobs9gf1s18lhe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
